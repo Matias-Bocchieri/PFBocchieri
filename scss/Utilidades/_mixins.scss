@@ -1,0 +1,29 @@
+@mixin display-nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@mixin width-height {
+    width: 100vw;
+    height: 100vh;
+}
+
+@mixin margin-padding {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@mixin flex-justify-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@mixin height-border-margin {
+    height:170px;
+    border: $marco-dorado;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}

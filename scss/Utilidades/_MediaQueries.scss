@@ -1,0 +1,64 @@
+@import "./mixins";
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+   
+    /*media queries inicio*/
+    #mainIndex {
+        height: fit-content;
+    }
+
+   /*media queries AAA*/
+    .mainTriplea {
+        div {
+            @include flex-justify-wrap
+        }
+        .imgMgs {
+            height: 150px;
+        }
+
+        div {
+            iframe {
+                height: 25vh;
+            }
+        }
+    }
+
+    /*media queries e.sports*/
+    .mainEsports {
+        div {
+            @include flex-justify-wrap;
+        }
+
+        div {
+            iframe {
+                height: 25vh;
+            }
+        }
+    }
+
+    /*media queries Nosotros*/
+    .mainNosotros {
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+
+        .imagenesNosotros {
+            flex-direction: column;
+            flex-wrap: wrap;
+            img {
+                display: flex;
+                justify-content: center;
+                margin: 10px;
+                height: 200px;
+            }
+        }
+    }
+
+    /*media queries Tu espacio*/
+    #mainTuespacio {
+        #carrusel {
+            display: none !important;
+            margin-left: 50px;
+        }
+    }
+}

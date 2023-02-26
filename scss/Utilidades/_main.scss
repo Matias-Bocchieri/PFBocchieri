@@ -1,0 +1,169 @@
+@import "./variables";
+@import "./mixins";
+
+* {
+    @include margin-padding;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* Main inicio */
+
+#mainIndex {
+    height: 83.3vh;
+}
+
+/* Main top AAA */
+
+.mainTriplea {
+    height: fit-content;
+    background: url(../../images/Imagenes/fondoJblanco.webp);
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        border: $marco-dorado;
+        background-color: rgba(0, 0, 0, 0.803);
+        color: bisque;
+       
+    }
+
+
+    h2 {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        border: $marco-dorado;
+        background-color: rgba(0, 0, 0, 0.803);
+        color: bisque;
+    }
+
+    div {
+        display: flex;
+
+        img {
+            @include height-border-margin
+        }
+
+        p {
+            border: $marco-dorado;
+            background-color: rgba(0, 0, 0, 0.803);
+            margin: 10px;
+            font-size: 1.5rem;
+            color: bisque;
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+
+        iframe {
+            border: $marco-dorado;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/* Main e-sports */
+.mainEsports {
+    height: fit-content;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(0, 33, 39, 1) 45%, rgba(87, 87, 87, 1) 56%, rgba(0, 0, 0, 1) 90%);
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        border: $marco-dorado;
+        background-color: rgba(0, 0, 0, 0.803);
+        color: bisque;
+
+    }
+
+    h2 {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        border: $marco-dorado;
+        background-color: rgba(0, 0, 0, 0.803);
+        color: bisque;
+    }
+
+    div {
+        display: flex;
+
+        img {
+            @include height-border-margin
+        }
+
+        p {
+            border: $marco-dorado;
+            background-color: rgba(0, 0, 0, 0.803);
+            margin: 10px;
+            font-size: 1.5rem;
+            color: bisque;
+        }
+    }
+
+    div {
+        display: flex;
+        justify-content: center;
+
+        iframe {
+            border: $marco-dorado;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+/* Main nosotros */
+
+.mainNosotros {
+    height: fit-content;
+    background-color: $color-body;
+
+    .textoNosotros {
+        h1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        h2 {
+            margin: 10px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin: 10px;
+        }
+    }
+
+    .imagenesNosotros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+        img {
+            display: flex;
+            justify-content: center;
+            border: $marco-dorado;
+            margin-top: 100px;
+            margin-bottom: 110px;
+        }
+        img:hover {
+            height: 500px;
+          }
+    }
+
+
+}
+
+/* Main tu espacio */
+
+#mainTuespacio {
+    height: 83.3vh;
+}

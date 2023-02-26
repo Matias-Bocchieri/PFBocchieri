@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  height: 100vh;
+  font-family: 'Raleway', sans-serif; }
+
+/* Main inicio */
+#mainIndex {
+  height: 83.3vh; }
+
+/* Main top AAA */
+.mainTriplea {
+  height: fit-content;
+  background: url(../../images/Imagenes/fondoJblanco.webp); }
+  .mainTriplea h1 {
+    display: flex;
+    justify-content: center;
+    border: 5px ridge goldenrod;
+    background-color: rgba(0, 0, 0, 0.803);
+    color: bisque; }
+  .mainTriplea h2 {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border: 5px ridge goldenrod;
+    background-color: rgba(0, 0, 0, 0.803);
+    color: bisque; }
+  .mainTriplea div {
+    display: flex; }
+    .mainTriplea div img {
+      height: 170px;
+      border: 5px ridge goldenrod;
+      margin-right: 40px;
+      margin-left: 40px;
+      margin-top: 10px; }
+    .mainTriplea div p {
+      border: 5px ridge goldenrod;
+      background-color: rgba(0, 0, 0, 0.803);
+      margin: 10px;
+      font-size: 1.5rem;
+      color: bisque; }
+  .mainTriplea div {
+    display: flex;
+    justify-content: center; }
+    .mainTriplea div iframe {
+      border: 5px ridge goldenrod;
+      margin-bottom: 10px; }
+
+/* Main e-sports */
+.mainEsports {
+  height: fit-content;
+  background: #020024;
+  background: linear-gradient(0deg, #020024 0%, #002127 45%, #575757 56%, black 90%); }
+  .mainEsports h1 {
+    display: flex;
+    justify-content: center;
+    border: 5px ridge goldenrod;
+    background-color: rgba(0, 0, 0, 0.803);
+    color: bisque; }
+  .mainEsports h2 {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border: 5px ridge goldenrod;
+    background-color: rgba(0, 0, 0, 0.803);
+    color: bisque; }
+  .mainEsports div {
+    display: flex; }
+    .mainEsports div img {
+      height: 170px;
+      border: 5px ridge goldenrod;
+      margin-right: 40px;
+      margin-left: 40px;
+      margin-top: 10px; }
+    .mainEsports div p {
+      border: 5px ridge goldenrod;
+      background-color: rgba(0, 0, 0, 0.803);
+      margin: 10px;
+      font-size: 1.5rem;
+      color: bisque; }
+  .mainEsports div {
+    display: flex;
+    justify-content: center; }
+    .mainEsports div iframe {
+      border: 5px ridge goldenrod;
+      margin-bottom: 10px; }
+
+/* Main nosotros */
+.mainNosotros {
+  height: fit-content;
+  background-color: #6c757d; }
+  .mainNosotros .textoNosotros h1 {
+    display: flex;
+    justify-content: center; }
+  .mainNosotros .textoNosotros h2 {
+    margin: 10px; }
+  .mainNosotros .textoNosotros h3 {
+    font-size: 1.5rem;
+    margin: 10px; }
+  .mainNosotros .imagenesNosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .mainNosotros .imagenesNosotros img {
+      display: flex;
+      justify-content: center;
+      border: 5px ridge goldenrod;
+      margin-top: 100px;
+      margin-bottom: 110px; }
+    .mainNosotros .imagenesNosotros img:hover {
+      height: 500px; }
+
+/* Main tu espacio */
+#mainTuespacio {
+  height: 83.3vh; }
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  /*media queries inicio*/
+  #mainIndex {
+    height: fit-content; }
+  /*media queries AAA*/
+  .mainTriplea div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .mainTriplea .imgMgs {
+    height: 150px; }
+  .mainTriplea div iframe {
+    height: 25vh; }
+  /*media queries e.sports*/
+  .mainEsports div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+  .mainEsports div iframe {
+    height: 25vh; }
+  /*media queries Nosotros*/
+  .mainNosotros {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content; }
+    .mainNosotros .imagenesNosotros {
+      flex-direction: column;
+      flex-wrap: wrap; }
+      .mainNosotros .imagenesNosotros img {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        height: 200px; }
+  /*media queries Tu espacio*/
+  #mainTuespacio #carrusel {
+    display: none !important;
+    margin-left: 50px; } }

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Te invito a que nos dejes tus datos y que nos cuentes cuales son tus juegos favoritos.">
+  <meta name="keywords" content="top, juegos, espacio">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" href="../images/Iconos/FAVICON.ico">
+  <title>Tu espacio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Bochi games</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./TripleA.html">Triple A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./e-sports.html">e-sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./TuEspacio.html">Tu espacio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="mainTuespacio" class="d-flex">
+
+    <section id="carrusel" class="col-12 col-md-6 bg-black d-flex flex-column justify-content-center align-items-center p-4">
+      <div id="carouselExampleIndicators" class=" carousel slide ">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+              <img src="../images/Imagenes/kratos.jpg" class="d-block w-100" alt="kratos">
+            </div>
+            <div class="carousel-item"> 
+              <img src="../images/Imagenes/rd2.jpg" class="d-block w-100 " alt="rd2">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/Imagenes/csgo2.jpg" class="d-block w-100 " alt="csgo">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/Imagenes/valorant.png" class="d-block w-100 " alt="valorant">
+            </div>
+            <div class="carousel-item">
+              <img src="../images/Imagenes/messi.webp" class="d-block w-100 " alt="messi">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <form class="col-12 col-md-6 bg-black d-flex flex-column justify-content-center p-2">
+      <div class="form-group pr-20px">
+        <label for="exampleFormControlInput1" class="text-white">Nombre y Apellido</label>
+        <input type="email" class="form-control w-75" id="exampleFormControlInput1" placeholder="Matias Bocchieri">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1" class="text-white">Nick que usas en los juegos</label>
+        <input type="email" class="form-control w-75" id="exampleFormControlInput1" placeholder="Bocha711">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1" class="text-white">Correo electronico</label>
+        <input type="email" class="form-control w-75" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1" class="text-white">Vos.. ¿Que jugas?</label>
+        <select class="form-control w-75" id="exampleFormControlSelect1">
+          <option>Triple A</option>
+          <option>e-sports</option>
+          <option>Ambos</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1" class="text-white">Contanos Cuales son tus juegos favoritos o cual es tu top
+          ideal.</label>
+        <textarea class="form-control w-75" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="form-check" id="botonTilde">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label text-white" for="exampleCheck1" >Deseo recibir informacion a mi correo electronico.</label>
+      </div>
+      <button type="submit" class="btn btn-primary w-50">Enviar</button>
+    </form>
+
+
+    <!-- <h1>
+        <div>Ingresa tus datos y dejanos tu opiniòn!</div>
+    </h1>
+    <form action="" method="post">
+        <div>
+            <label for="nombre" class="formNombre">Ingrese nombre y apellido:</label>
+            <input type="text" name="" id="nombre" required placeholder="NOMBRE Y APELLIDO" />
+        </div>
+        <div>
+            <label for="email" class="formEmail">Ingrese email:</label>
+            <input type="email" name="" id="email" required placeholder="ejemplo@gmail.com" />
+        </div>
+        <div>
+            <p class="formTexto">¿Cual es tu top de juegos favoritos?</p>
+            <textarea name="" id="" cols="30" rows="10" required placeholder="Escribe aquì..."></textarea>
+        </div>
+
+    </form> -->
+  </main>
+
+  <footer class="col-12 bg-dark text-center text-white  ">
+
+
+
+    <div class="container p-4 pb-0 h-100 d-flex align-items-center justify-content-center">
+
+      <section class="mb-4 ">
+
+        <a class="btn btn-outline-light btn-floating m-1" href="" role="button">
+          <img src="../images/Iconos/facebook.png" height="30px" alt="iconf"><i class="fab fa-facebook-f"></i></a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><img src="../images/Iconos/tw.png"
+            height="30px" alt="icont"><i class="fab fa-twitter"></i></a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><img
+            src="../images/Iconos/instagram.png" height="30px" alt="icong"><i class="fab instagram"></i></a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><img src="../images/Iconos/twitch.png"
+            height="30px" alt="iconi"><i class="fab fa-twitch"></i></a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><img
+            src="../images/Iconos/youtube.png" height="30px" alt="iconl"><i class="fab fa-youtube"></i></a>
+
+
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><img
+            src="../images/Iconos/tik-tok.png" height="30px" alt="icong"><i class="fab tiktok"></i></a>
+
+        <a class="btn btn-outline-light btn-floating m-1" href="./index.html" role="button"><img
+            src="../images/Iconos/palanca-de-mando.png" height="30px" alt="icong"><i class="fab page"></i></a>
+      </section>
+
+    </div>
+
+
+
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
