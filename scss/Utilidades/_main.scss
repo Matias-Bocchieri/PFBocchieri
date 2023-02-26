@@ -20,9 +20,8 @@ body {
 /* Main top AAA */
 
 .mainTriplea {
-    height: fit-content;
-    background: url(../../images/Imagenes/fondoJblanco.webp);
-
+    background: rgb(70,15,61);
+    background: radial-gradient(circle, rgba(70,15,61,1) 0%, rgba(89,35,35,1) 100%);
     h1 {
         display: flex;
         justify-content: center;
